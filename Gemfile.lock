@@ -1,0 +1,67 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.5)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    addressable (2.3.8)
+    dotenv (2.0.2)
+    eventmachine (1.0.8)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.2)
+      faraday (>= 0.7.4, < 0.10)
+    faraday_middleware-parse_oj (0.3.0)
+      faraday (~> 0.9.0)
+      faraday_middleware (~> 0.9.1)
+      oj (~> 2.0)
+    faye-websocket (0.10.1)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    giphy (2.0.2)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.9)
+      faraday_middleware-parse_oj (~> 0.3)
+      launchy (~> 2.4)
+    hashie (3.4.3)
+    i18n (0.7.0)
+    imgurapi (3.0.0)
+      faraday
+    json (1.8.3)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    minitest (5.8.3)
+    multipart-post (2.0.0)
+    oj (2.13.1)
+    slack-ruby-bot (0.4.5)
+      activesupport
+      giphy (~> 2.0.2)
+      hashie
+      slack-ruby-client
+      websocket-driver (~> 0.5.4)
+    slack-ruby-client (0.4.0)
+      eventmachine
+      faraday
+      faraday_middleware
+      faye-websocket
+      json
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    websocket-driver (0.5.4)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  imgurapi
+  slack-ruby-bot
+
+BUNDLED WITH
+   1.10.6
