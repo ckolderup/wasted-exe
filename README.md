@@ -19,13 +19,13 @@ To set it up, you'll need a few things:
 
 After cloning, you need to create a `.env` file in the root directory of the repo. It should look something like this:
 
-``
-SLACK_API_TOKEN=
-IMGUR_CLIENT_ID=
-IMGUR_CLIENT_SECRET=
-IMGUR_ACCESS_TOKEN=
-IMGUR_REFRESH_TOKEN=
-``
+```
+SLACK_API_TOKEN=  
+IMGUR_CLIENT_ID= 
+IMGUR_CLIENT_SECRET= 
+IMGUR_ACCESS_TOKEN= 
+IMGUR_REFRESH_TOKEN= 
+```
 
 The Slack API token is obtained by creating a new "bot" under the Slack admin integrations menu. Mark down the name of the bot when you create it; you'll be using it later to evoke the bot in your Slack channels.
 
