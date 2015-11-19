@@ -29,7 +29,7 @@ IMGUR_REFRESH_TOKEN=
 
 The Slack API token is obtained by creating a new "bot" under the Slack admin integrations menu. Mark down the name of the bot when you create it; you'll be using it later to evoke the bot in your Slack channels.
 
-The imgur variables are slightly more complicated; you can obtain the first two values by accessing the developer section of the imgur website and creating a new application. For the last two tokens please consult the documentation of this imgur gem](https://github.com/dncrht/imgur) unless you have a preferred way to get the values yourself.
+The imgur variables are slightly more complicated; you can obtain the first two values by accessing the developer section of the imgur website and creating a new application. For the last two tokens please consult the documentation of [this imgur gem](https://github.com/dncrht/imgur) unless you have a preferred way to get the values yourself.
 
 Plug all the values you've obtained into the `.env` script after the `=` and save it.
 
